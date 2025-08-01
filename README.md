@@ -21,6 +21,15 @@ CHOOSE THE (dump-gradely-202508020022.sql) TO REUSE IT
 
 DONE.
 
+//===== TO USE THIS REPOSITORY =====//
+OPEN THE TERMINAL IN VS CODE, MAKE SURE THAT YOU HAVE DOWNLOADED GIT, IF NOT GO TO THIS LINK (https://git-scm.com/downloads/win) AND SELECT THE Git for Windows/x64 Setup.
+
+PASTE THIS IN THE GIT TERMINAL:
+git clone https://github.com/RalphGervacio/Gradely.git
+(This will download the full project into a new folder named Gradely.)
+
+OPEN IT AND BUILD THE PROJECT.
+
 //=====================================================//
 "THIS PROJECT IS USING SPRING BOOT + THYMELEAF"
 
