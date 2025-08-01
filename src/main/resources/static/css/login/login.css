@@ -1,0 +1,106 @@
+/* 
+    Author: RalphTheGreat
+*/
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A1A1A1;
+    font-family: 'Segoe UI', sans-serif;
+    transition: background 0.3s ease-in-out;
+}
+
+.card {
+    border: none;
+    border-radius: 1rem;
+    background: #e0e5ec;
+    box-shadow:
+        8px 8px 16px #bfc5d2,
+        -8px -8px 16px #ffffff;
+    transition: all 0.3s ease-in-out;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.card:hover {
+    box-shadow:
+        4px 4px 8px #bfc5d2,
+        -4px -4px 8px #ffffff;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+h4 {
+    font-weight: 600;
+    color: #444;
+}
+
+.form-control {
+    border: none;
+    border-radius: 0.75rem;
+    background: #e0e5ec;
+    box-shadow:
+        inset 3px 3px 6px #bfc5d2,
+        inset -3px -3px 6px #ffffff;
+    transition: box-shadow 0.3s ease;
+    font-size: 0.95rem;
+}
+
+.form-control:focus {
+    box-shadow:
+        inset 1px 1px 2px #bfc5d2,
+        inset -1px -1px 2px #ffffff;
+    background-color: #f0f3f7;
+}
+
+label.form-label {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 0.3rem;
+}
+
+.btn-primary {
+    border: none;
+    border-radius: 0.75rem;
+    background: #e0e5ec;
+    color: #222;
+    font-weight: 500;
+    box-shadow:
+        4px 4px 8px #bfc5d2,
+        -4px -4px 8px #ffffff;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #d4dae3;
+    box-shadow:
+        inset 2px 2px 4px #bfc5d2,
+        inset -2px -2px 4px #ffffff;
+}
+
+#loginMessage {
+    border-radius: 0.75rem;
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+    background-color: #e0e5ec;
+    border: none;
+    box-shadow:
+        inset 3px 3px 6px #bfc5d2,
+        inset -3px -3px 6px #ffffff;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
